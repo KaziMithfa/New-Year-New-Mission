@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  outline: 5px red solid;
+  margin: 0;
+  padding: 0;
+}
+
+/* design for all container section */
+.container {
+  width: 82%;
+  max-width: 1320px;
+  margin: 40px auto;
+  height: 600px;
+}
+
+/* header related styles */
+
+/* specific banner related styles */
+
+.banner {
+  background-image: url("../images/Banner\ Image.png");
+  padding: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 90%;
+}
+
+.happynewyearbanner {
+  padding: 233px 344px 177px;
+}
+
+.happynewyearbanner h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 32px;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.happynewyearbanner h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-family: "Merriweather", serif;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 95px; /* 131.944% */
+  width: 632px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.categories-section {
+  max-width: 400px;
+  width: 75%;
+  margin: 100px auto;
+}
+
+.category-text * {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.category-text h2 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.category-text h4 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.category-text h3 {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.category-img img {
+  width: 100%;
+  text-align: center;
+}
+
+.midnight {
+  background-image: url("../images/Vectorrr.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-top: 100px;
+  display: flex;
+  padding-left: 126px;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.midnight-text * {
+  margin-bottom: 24px;
+}
+
+.midnight-text h2 {
+  color: #fff;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 88px; /* 137.5% */
+  letter-spacing: 7.04px;
+  width: 642px;
+}
+
+.midnight-text h3 {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+.midnight-text button {
+  color: red;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 20px;
+}
+
+.midnight-text .midnightimg img {
+  width: 100%;
+}
